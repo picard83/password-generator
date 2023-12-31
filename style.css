@@ -1,1 +1,27 @@
+.container {
+  background-color: pink;
+  display: inline-block;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 19px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 30px;
+}
 
+.password {
+  /* text-decoration: underline; */
+  border: 3px solid red;
+
+  padding: 10px;
+}
+
+.btn {
+  background-color: lightgoldenrodyellow;
+  border-radius: 6px;
+  /* padding: 10px; */
+  margin: 9px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
