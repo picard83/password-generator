@@ -27,7 +27,7 @@ btn.addEventListener("click", function () {
     return;
   }
   //////////////////////
-  var passwordLength = parseInt(
+  let passwordLength = parseInt(
     prompt("Enter password length (numeric value):")
   );
 
