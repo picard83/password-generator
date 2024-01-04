@@ -37,9 +37,11 @@ btn.addEventListener("click", function () {
   }
   //////////////////////
   let newOne = "";
-  for (var i = 0; i < passwordLength; i++) {
+  for (let i = 0; i < passwordLength; i++) {
     let randomIndex = Math.floor(Math.random() * allChars.length);
+
     newOne += allChars.charAt(randomIndex);
+    // console.log(allChars.charAt(randomIndex));
   }
 
   password.innerText = newOne;
